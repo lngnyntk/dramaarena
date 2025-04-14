@@ -1,6 +1,6 @@
 :root {
     --background: antiquewhite;
-    --button: rgb(199, 160, 110);
+    --button: rgb(226, 184, 128);
     --text: rgb(70, 53, 30);
 }
 
@@ -41,7 +41,7 @@
         transform: TranslateX(250px);
     }
     100% {
-        transform: TranslateX(0px)
+        transform: TranslateX(0px);
     }
 }
 
@@ -51,12 +51,18 @@
     }
 
     50% {
-        opacity: 0.5;
+        opacity: 0;
     }
 
     100% {
         opacity: 1;
     }
+}
+
+#about {
+    display: flex;
+    align-items: start;
+    justify-content: center;
 }
 
 .navbar {
@@ -67,6 +73,7 @@
     justify-content: space-evenly;
     position: sticky;
     bottom: 0px;
+    box-shadow: 1px -1px 15px 3px #000000;
 }
 
 a {
